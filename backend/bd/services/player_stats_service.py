@@ -1,7 +1,16 @@
 from datetime import datetime, timedelta
 from sqlalchemy import func, desc, and_
-from models.user import UserRole
-from models import db, User, TrainingSession, TrainingType, SkillLevel, CoachClub, Transaction, TransactionType
+from models import (
+    db,
+    User,
+    UserRole,
+    TrainingSession,
+    TrainingType,
+    SkillLevel,
+    CoachClub,
+    Transaction,
+    TransactionType
+)
 import json
 
 class PlayerStatsService:
