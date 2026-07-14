@@ -9,12 +9,13 @@ python-dotenv==1.0.0
 SQLAlchemy==2.0.19
 bcrypt==4.0.1
 
+tensorflow==2.15.0
 
 scikit-learn==1.4.2
-numpy==1.24.3
-pandas==2.0.3
+numpy==1.26.4
+pandas==2.1.4
 
-opencv-python==4.8.0.74
-Pillow==10.0.0
+opencv-python==4.8.1.78
+Pillow==10.2.0
 
 gunicorn==23.0.0
