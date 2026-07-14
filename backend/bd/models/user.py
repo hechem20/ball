@@ -1,3 +1,4 @@
+print(f"🔍 CHARGEMENT MODULE: __name__={__name__}, __file__={__file__}")
 from datetime import datetime
 from enum import Enum
 from sqlalchemy import String, DateTime, Boolean, Enum as SQLEnum, Float, Column, Integer
